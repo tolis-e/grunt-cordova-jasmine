@@ -1,0 +1,40 @@
+{
+    "name": "grunt-cordova-jasmine-showcase",
+    "description": "Showcase for the grunt-cordova-jasmine plugin",
+    "title": "Grunt Cordova Jasmine Showcase",
+    "version": "0.1.0",
+    "homepage": "https://github.com/tolis-e/grunt-cordova-jasmine",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/tolis-e/grunt-cordova-jasmine.git"
+    },
+    "author": {
+        "name": "Tolis Emmanouilidis",
+        "url": "http://github.com/tolis-e/grunt-cordova-jasmine"
+    },
+    "maintainers": {
+        "name": "Tolis Emmanouilidis",
+        "email": "tolisemm@gmail.com"
+    },
+    "licenses": [
+        {
+            "type": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0"
+        }
+    ],
+    "keywords": [
+        "android",
+        "cordova",
+        "plugin",
+        "jasmine",
+        "mobile",
+        "test",
+        "automation"
+    ],
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-jshint": "~0.6.4",
+        "grunt-android-emulator": "0.1.0",
+        "grunt-cordova-jasmine": "0.1.0"
+    }
+}
