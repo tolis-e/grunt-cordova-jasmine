@@ -27,7 +27,7 @@ _`execute-jasmine-suite:jasmine-suite-1`_ where jasmine-suite-1 is the jasmine i
 
 ```js
 grunt.initConfig({
-    grunt-cordova-jasmine: {
+    grunt_cordova_jasmine: {
         jasmine: [{
             id: "jasmine-suite-1",
             project: {
@@ -159,6 +159,8 @@ or
 The Html reporter name should match one of the following regular expressions:
 
 `jasmine([^>]*)html([^>]*)js` or `HtmlReporter([^>]*)js`
+
+In addition the plugin searches for a Jasmine [addReporter](https://github.com/tolis-e/grunt-cordova-jasmine/blob/master/example/tests/index.html#L55) and adds a custom reporter after this line.
 
 ## Example
 > The [example](https://github.com/tolis-e/grunt-cordova-jasmine/tree/master/example) folder contains a sample example which depicts how to use this plugin.
