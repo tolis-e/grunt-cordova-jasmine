@@ -34,7 +34,7 @@
     "devDependencies": {
         "grunt": "~0.4.1",
         "grunt-contrib-jshint": "~0.6.4",
-        "grunt-android-emulator": "0.1.0",
+        "grunt-android-emulator": "0.1.1",
         "grunt-cordova-jasmine": "0.1.0"
     }
 }

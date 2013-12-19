@@ -52,7 +52,7 @@ module.exports = function(grunt) {
                 }
             }
         },
-        android: {
+        grunt_android_emulator: {
             emulators: [{
                 id: 'emulator-1',
                 create: {
