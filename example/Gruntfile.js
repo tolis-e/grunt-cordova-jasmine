@@ -67,7 +67,7 @@ module.exports = function(grunt) {
                 },
                 start: {
                     '-port': '5556',
-                    //'-no-window': '',
+                    '-no-window': '',
                     '-no-audio': '',
                     //'-no-skin': ''
                 }
@@ -85,7 +85,7 @@ module.exports = function(grunt) {
                 },
                 start: {
                     '-port': '5558',
-                    //'-no-window': '',
+                    '-no-window': '',
                     '-no-audio': '',
                     //'-no-skin': ''
                 }
