@@ -1,4 +1,5 @@
-# grunt-cordova-jasmine [![NPM version](https://badge.fury.io/js/grunt-cordova-jasmine.png)](http://badge.fury.io/js/grunt-cordova-jasmine)
+# grunt-cordova-jasmine 
+[![Build Status](https://travis-ci.org/tolis-e/grunt-cordova-jasmine.png?branch=master)](https://travis-ci.org/tolis-e/grunt-cordova-jasmine) [![NPM version](https://badge.fury.io/js/grunt-cordova-jasmine.png)](http://badge.fury.io/js/grunt-cordova-jasmine)
 > This project contains a Grunt plugin which automates [Jasmine](http://pivotal.github.io/jasmine/) Test Suite execution for [Apache Cordova](http://cordova.apache.org/) plugins. _Currently only the **Android** part is implemented._
 
 You can find a relevant video which depicts the execution procedure [here](http://vimeo.com/77935606).
@@ -162,8 +163,10 @@ The Html reporter name should match one of the following regular expressions:
 
 In addition the plugin searches for a Jasmine [addReporter](https://github.com/tolis-e/grunt-cordova-jasmine/blob/master/example/tests/index.html#L55) and adds a custom reporter after this line.
 
+Note that when selecting a specific cordova version, the [framework](https://github.com/tolis-e/cordova-android/tree/master/framework) app of cordova-android requires a specific target sdk to be installed. Make sure that this target sdk is installed in your environment. In the [example](https://github.com/tolis-e/grunt-cordova-jasmine/tree/master/example) which is shipped with the project, the cordova version is set to be [3.0.0](https://github.com/tolis-e/grunt-cordova-jasmine/blob/master/example/Gruntfile.js#L31). This means that you must have android target sdk android-17 installed in your environment, since cordova-android version 3.0.0 requires the target sdk android-17.
+
 ## Example
-> The [example](https://github.com/tolis-e/grunt-cordova-jasmine/tree/master/example) folder contains a sample example which depicts how to use this plugin.
+> The [example](https://github.com/tolis-e/grunt-cordova-jasmine/tree/master/example) folder contains a sample example which depicts how to use this plugin. This example is running on [Travis CI](https://travis-ci.org/tolis-e/grunt-cordova-jasmine)
 
 ## Release History
 
