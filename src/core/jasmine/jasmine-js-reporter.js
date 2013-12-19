@@ -59,8 +59,9 @@ limitations under the License.
  */
 (function () {
     // Ensure that Jasmine library is loaded first
-    if (!jasmine) {
+    if (typeof jasmine === 'undefined') {
         console.log('>>Jasmine Suite ERROR [Jasmine library is not loaded]<<');
+        throw 'jasmine is undefined';
     }
 
     /**
