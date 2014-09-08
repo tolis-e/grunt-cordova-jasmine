@@ -27,8 +27,8 @@ module.exports = function(grunt) {
                         targetDir: "./temp/projects/cordova-android",
                         name: "CordovaAndroid",
                         package_name: "org.example.cordova.android",
-                        sdk: 'android-18',
-                        cordova_version: "3.0.0"
+                        sdk: 'android-19',
+                        cordova_version: "3.4.0"
                     }
                 },
                 plugin_test: {
@@ -46,7 +46,7 @@ module.exports = function(grunt) {
                 android: {
                     path: '',
                     git: {
-                        url: "https://github.com/tolis-e/cordova-android.git",
+                        url: "https://github.com/apache/cordova-android.git",
                         targetDir: "./temp/cordova-libraries"
                     }
                 }
@@ -62,7 +62,7 @@ module.exports = function(grunt) {
                     //'--path': 'avd',
                     '--force': '',
                     //'--skin': '',
-                    '--target': 'android-18',
+                    '--target': 'android-19',
                     '--abi': 'armeabi-v7a'
                 },
                 start: {
@@ -80,7 +80,7 @@ module.exports = function(grunt) {
                     //'--path': 'avd',
                     '--force': '',
                     //'--skin': '',
-                    '--target': 'android-18',
+                    '--target': 'android-19',
                     '--abi': 'armeabi-v7a'
                 },
                 start: {
